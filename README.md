@@ -130,6 +130,6 @@ MIT License - feel free to use this structure for your learning.
 
 ---
 
-**Start Date:** [Your Start Date]  
+**Start Date:** [22/02/26]  
 **Target Completion:** [60 days later]  
 **Current Phase:** Phase 1
