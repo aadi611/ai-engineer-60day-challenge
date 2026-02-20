@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+  ai-engineer-app:
+    build: .
+    container_name: ai-engineer-challenge
+    ports:
+      - "8000:8000"
+      - "9090:9090"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - ENVIRONMENT=development
+    volumes:
+      - .:/app
+      - ./datasets:/app/datasets
+      - ./daily_logs:/app/daily_logs
+    env_file:
+      - .env
+    networks:
+      - ai-network
+
+  # Vector Database (ChromaDB)
+  chromadb:
+    image: chromadb/chroma:latest
+    container_name: chromadb
+    ports:
+      - "8001:8000"
+    volumes:
+      - chroma-data:/chroma/chroma
+    networks:
+      - ai-network
+
+  # Monitoring (Prometheus)
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    ports:
+      - "9091:9090"
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus-data:/prometheus
+    networks:
+      - ai-network
+
+networks:
+  ai-network:
+    driver: bridge
+
+volumes:
+  chroma-data:
+  prometheus-data:
