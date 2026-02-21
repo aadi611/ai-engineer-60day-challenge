@@ -69,26 +69,7 @@ Build a production-ready enterprise AI copilot integrating all learned concepts.
 - Azure subscription (for Phase 3+)
 - OpenAI API key
 
-### Installation
 
-1. **Clone and setup:**
-```bash
-cd ai-engineer-60day-challenge
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-2. **Configure environment:**
-```bash
-cp .env.example .env
-# Edit .env with your API keys
-```
-
-3. **Run with Docker:**
-```bash
-docker-compose up -d
-```
 
 ## 📁 Project Structure
 
