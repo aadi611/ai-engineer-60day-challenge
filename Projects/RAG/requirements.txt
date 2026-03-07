@@ -1,0 +1,48 @@
+# Production RAG System Requirements
+
+# Core Dependencies
+chromadb>=0.4.22
+openai>=1.12.0
+langchain>=0.1.9
+langchain-openai>=0.0.5
+langchain-community>=0.0.21
+
+# Document Processing
+pypdf>=4.0.1
+python-docx>=1.1.0
+markdown>=3.5.2
+beautifulsoup4>=4.12.3
+
+# Embeddings & Retrieval
+sentence-transformers>=2.3.1
+numpy>=1.26.4,<2.0.0
+scikit-learn>=1.4.0
+rank-bm25>=0.2.2
+
+# Reranking
+transformers>=4.38.1
+torch>=2.2.0
+
+# Configuration & Environment
+python-dotenv>=1.0.1
+pyyaml>=6.0.1
+
+# Monitoring & Logging
+loguru>=0.7.2
+tqdm>=4.66.1
+
+# API & Web
+fastapi>=0.109.2
+uvicorn>=0.27.1
+pydantic>=2.6.1
+pydantic-settings>=2.1.0
+
+# Evaluation (optional - may have conflicts, install separately if needed)
+# ragas>=0.1.5
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.5
+
+# Rich CLI
+rich>=13.7.0

@@ -1,0 +1,86 @@
+# Production RAG System Configuration
+
+# Document Processing
+document_processing:
+  supported_formats:
+    - pdf
+    - txt
+    - md
+    - docx
+  max_file_size_mb: 50
+
+# Chunking Strategies
+chunking:
+  strategy: "recursive"  # Options: fixed, semantic, recursive
+  chunk_size: 500
+  chunk_overlap: 50
+  separators:
+    - "\n\n"
+    - "\n"
+    - ". "
+    - " "
+  min_chunk_size: 100
+  max_chunk_size: 1000
+
+# Embeddings
+embeddings:
+  model: "text-embedding-3-small"
+  batch_size: 100
+  dimensions: 1536
+
+# Vector Store (ChromaDB)
+vector_store:
+  persist_directory: "./data/chroma_db"
+  collection_name: "rag_documents"
+  distance_metric: "cosine"  # Options: cosine, l2, ip
+  
+# Retrieval Configuration
+retrieval:
+  strategy: "hybrid"  # Options: vector, bm25, hybrid
+  top_k: 10
+  
+  # Vector Search
+  vector_search:
+    similarity_threshold: 0.7
+    
+  # BM25 Configuration
+  bm25:
+    k1: 1.5  # Term saturation parameter
+    b: 0.75  # Length normalization parameter
+    
+  # Hybrid Fusion
+  hybrid:
+    fusion_method: "rrf"  # Options: rrf, weighted
+    alpha: 0.5  # Weight for vector search (0-1)
+    rrf_k: 60  # RRF constant
+    
+# Reranking
+reranking:
+  enabled: true
+  model: "cross-encoder/ms-marco-MiniLM-L-6-v2"
+  top_k: 5
+  batch_size: 32
+
+# LLM Configuration
+llm:
+  model: "gpt-4-turbo-preview"
+  temperature: 0.7
+  max_tokens: 1000
+  system_prompt: |
+    You are a helpful AI assistant. Answer questions based on the provided context.
+    If you cannot answer based on the context, say so. Do not hallucinate information.
+
+# Evaluation
+evaluation:
+  metrics:
+    - precision
+    - recall
+    - mrr
+    - ndcg
+  ground_truth_file: "./data/ground_truth.json"
+
+# Logging
+logging:
+  level: "INFO"
+  format: "{time:YYYY-MM-DD HH:mm:ss} | {level} | {message}"
+  file: "./logs/rag_system.log"
