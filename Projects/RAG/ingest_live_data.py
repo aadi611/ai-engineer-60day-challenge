@@ -18,6 +18,11 @@ import argparse
 import requests
 import json
 from pathlib import Path
+
+# Force UTF-8 output on Windows so unicode in data doesn't crash prints
+if sys.stdout.encoding and sys.stdout.encoding.lower() != 'utf-8':
+    import io
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 from datetime import datetime, timedelta
 from typing import List, Dict, Optional
 from dotenv import load_dotenv
@@ -471,7 +476,7 @@ def run_ingestion(args):
     pipeline = RAGPipeline()
     count = pipeline.ingest_documents(file_paths=[str(f) for f in all_files])
     logger.success(f"Done! Ingested {count} chunks from {len(all_files)} documents.")
-    print(f"\n✅ Ingested {count} chunks from {len(all_files)} documents.")
+    print(f"\n[OK] Ingested {count} chunks from {len(all_files)} documents.")
     print(f"   Data saved to: {out_dir}")
     print(f"\n   Run 'python chatbot.py' and start asking questions!")
 
