@@ -1,4 +1,4 @@
-# Day 7 - February 27, 2026
+git# Day 7 - February 27, 2026
 
 ## Topics Covered
 - Week 1 Review and Consolidation
