@@ -1,6 +1,6 @@
 
 
-⸻
+
 
 Day 11
 - March 4, 2026
@@ -11,7 +11,7 @@ Topics Covered
 	•	Enhanced Validator with scoring mechanism (instead of binary pass/fail)
 	•	Performance benchmarking across different workflow complexities
 
-⸻
+
 
 What I Learned
 	•	Integrating tools (APIs/functions) makes agents significantly more powerful and practical
@@ -20,7 +20,7 @@ What I Learned
 	•	Benchmarking helps identify bottlenecks in planner, executor, or validator stages
 	•	Not all tasks benefit from parallelism — dependency mapping is crucial
 
-⸻
+
 
 Code/Projects
 	•	Extended Executor to:
@@ -40,16 +40,14 @@ Code/Projects
 	•	Tool-heavy vs LLM-heavy workflows
 	•	Observed performance gains in parallel execution cases
 
-⸻
+
 
 Challenges
 	•	Managing race conditions and synchronization in parallel execution
 	•	Deciding when to trigger tools vs rely on LLM reasoning
 	•	Designing a fair and consistent scoring system for validation
 	•	Handling API failures within parallel flows
-	•	Avoiding over-engineering for simple workflows
-
-⸻
+	•	Avoiding over-engineering for simple 
 
 Resources
 	•	Async programming patterns (Python asyncio / JS promises)
@@ -57,7 +55,7 @@ Resources
 	•	LangGraph parallel node execution concepts
 	•	Articles on distributed systems & concurrency models
 
-⸻
+
 
 Tomorrow’s Plan
 	•	Add logging and observability (trace each step clearly)
