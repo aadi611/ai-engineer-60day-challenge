@@ -15,9 +15,9 @@
 
 ## Code/Projects
 - Implemented a starter pipeline for:
-	- Planning task steps
-	- Executing each step
-	- Validating final output
+  - Planning task steps
+  - Executing each step
+  - Validating final output
 - Added intermediate logging to inspect each agent's output
 - Tested with a small use case: converting a user request into an actionable task plan
 
