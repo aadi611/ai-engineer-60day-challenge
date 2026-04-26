@@ -74,7 +74,7 @@ Build a production-ready enterprise AI copilot integrating all learned concepts.
 ## 📁 Project Structure
 
 ```
-ai-engineer-60day-challenge/
+ai-engineer-60day-challenge
 ├── phase_01_production_rag/      # RAG implementations
 ├── phase_02_agentic_orchestration/ # Agent systems
 ├── phase_03_azure_ai_deployment/  # Azure deployments
