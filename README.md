@@ -61,7 +61,7 @@ Build a production-ready enterprise AI copilot integrating all learned concepts.
 - **Observability:** Prometheus, OpenTelemetry
 - **Containerization:** Docker, Docker Compose
 
-## 🚦 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.12+
