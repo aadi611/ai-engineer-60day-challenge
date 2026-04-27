@@ -1,7 +1,7 @@
 # Day 21 - March 13, 2026
 
 ## Topics Covered
-- 
+
 
 ## What I Learned
 - 
