@@ -27,7 +27,7 @@
 - **Chunking Strategies**: Different approaches to breaking down documents for efficient retrieval
 
 ## Code/Projects
-- 
+
 
 ## Challenges
 - Understanding when to use cross-encoders vs bi-encoders in production
