@@ -7,7 +7,7 @@ A comprehensive 60-day learning path to master production-ready AI engineering, 
 ### Phase 1: Production RAG (Days 1-12)
 Build production-ready Retrieval-Augmented Generation systems with advanced techniques.
 
-**Topics:**
+**Topics:*
 - Vector databases & embeddings
 - Hybrid search strategies
 - Context optimization
