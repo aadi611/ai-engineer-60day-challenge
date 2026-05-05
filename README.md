@@ -1,4 +1,4 @@
-# 🚀 AI Engineer 60-Day Challenge ''
+# 🚀 AI Engineer 60-Day Challenge
 
 A comprehensive 60-day learning path to master production-ready AI engineering, from RAG systems to enterprise AI deployment.
 
