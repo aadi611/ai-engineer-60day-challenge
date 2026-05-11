@@ -1,4 +1,4 @@
-# Day 1 - February 21, 2026
+# Day 1  : February 21, 2026
 
 ## Topics Covered
 - Search Fundamentals (Keyword & Vector Search)
