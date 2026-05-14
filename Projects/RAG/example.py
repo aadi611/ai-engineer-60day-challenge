@@ -1,6 +1,6 @@
 """
 Example Usage of the RAG System
-Demonstrates basic functionality
+Demonstrates basic functionality's
 """
 
 import sys
