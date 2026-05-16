@@ -67,7 +67,7 @@ Build a production-ready enterprise AI copilot integrating all learned concepts.
 - Python 3.12+
 - Docker & Docker Compose
 - Azure subscription (for Phase 3+)
-- OpenAI API ke
+- OpenAI API key
 
 
 
