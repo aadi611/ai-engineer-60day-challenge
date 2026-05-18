@@ -12,4 +12,4 @@ class BM25Search:
         ranked = sorted(zip(self.documents, scores),
                         key=lambda x: x[1],
                         reverse=True)
-        return ranked[:top_k
+        return ranked[:top_k]
