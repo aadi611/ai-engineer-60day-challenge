@@ -1,6 +1,6 @@
 # Day 3 - February 23, 2026
 
-## Topics Covere
+## Topics Covered
 - ChromaDB Architecture and Setup
 - Vector Database Integration
 - Collection Management
