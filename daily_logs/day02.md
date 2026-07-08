@@ -1,7 +1,7 @@
 # Day 2 - February 22, 2026
 
 ## Topics Covered
-- Basic RAG Pipeline Architecture's
+- Basic RAG Pipeline Architecture
 - Document Loading and Preprocessing
 - Text Chunking Implementation
 - Embedding Generation
