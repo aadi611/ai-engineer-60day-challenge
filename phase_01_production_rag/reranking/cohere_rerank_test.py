@@ -1,1 +1,0 @@
-# Cohere Rerank Test

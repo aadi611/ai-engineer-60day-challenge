@@ -1,1 +1,0 @@
-# Incident Resolution Agent Implementation
