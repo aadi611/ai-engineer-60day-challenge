@@ -122,7 +122,6 @@ Each day: **A** = DSA (~45 min) · **B** = Core build topic (~2-2.5 hrs) · **C*
 **Phase 6 Completion:** 0% (0/4 days)
 
 ---
-
 ## 📅 Phase 7: Capstone — Enterprise Copilot (Days 53-57)
 
 - [ ] **Day 53:** Architecture & planning
