@@ -1,4 +1,4 @@
-# DSA Practice Track
+ DSA Practice Track
 
 45 min/day, ~2 problems/day, pattern-by-pattern (mirrors the day-by-day pattern
 assignments in [../progress_tracker.md](../progress_tracker.md)). Goal: ~90-100
