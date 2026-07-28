@@ -14,6 +14,8 @@ replaced with "here's what's actually happening in the forward pass."
 
 ## Resource
 
+
+
 - ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762) — the paper, worth re-reading start to finish
 - [Hugging Face Transformers docs](https://huggingface.co/docs/transformers)
 - [Hugging Face PEFT docs](https://huggingface.co/docs/peft) (LoRA/QLoRA)
