@@ -12,7 +12,7 @@ replaced with "here's what's actually happening in the forward pass."
 - **Day 5** — Alignment: RLHF, DPO, RLAIF, and practical guardrail techniques.
 - **Day 6** — 🎯 Inference optimization: KV cache, quantization (GPTQ/AWQ), speculative decoding, continuous batching. Then System Design #1: "Design a low-latency LLM inference service" (see [../system_design/README.md](../system_design/README.md)).
 
-## Resource
+## Resourc
 
 
 
