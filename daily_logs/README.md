@@ -15,4 +15,5 @@ Template:
 
 **Blockers:** anything that ate time or you didn't finish
 **Tomorrow:** one thing to carry forward
+**Extra's:** Platform, Terraform , Azure , Certifications
 ```
