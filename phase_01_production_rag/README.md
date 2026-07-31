@@ -1,6 +1,6 @@
 # Phase 1: Advanced Production RAG (Days 7-15)
 
-## Days
+## Day wise plan
 
 - **Day 7** — Vector DB internals (HNSW, IVF, product quantization). Compare Pinecone vs Weaviate vs pgvector vs FAISS on recall/latency/cost tradeoffs.
 - **Day 8** — Chunking strategies: fixed, recursive, semantic, hierarchical.
