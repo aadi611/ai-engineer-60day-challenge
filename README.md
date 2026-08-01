@@ -9,7 +9,6 @@ being an afterthought at the end.
 **Start Date:** 2026-07-12
 **Target Completion:** 2026-09-09 (Day 60)
 **Commitment:** ~3-4 hrs/day
-
 ---
 
 ## 🧭 How each day works (the three tracks)
