@@ -3,7 +3,7 @@
 Interview-grade depth on the internals — this is where "I use LangChain" gets
 replaced with "here's what's actually happening in the forward pass."
 
-## Days
+## Day wise 
 
 - **Day 1** — Attention & multi-head attention, positional encoding. Implement scaled dot-product attention from scratch in NumPy/PyTorch (no library shortcuts) — this is the single most common "explain from first principles" ask.
 - **Day 2** — Tokenization (BPE, SentencePiece), embeddings, context windows. Train a small BPE tokenizer on a toy corpus.
@@ -12,7 +12,9 @@ replaced with "here's what's actually happening in the forward pass."
 - **Day 5** — Alignment: RLHF, DPO, RLAIF, and practical guardrail techniques.
 - **Day 6** — 🎯 Inference optimization: KV cache, quantization (GPTQ/AWQ), speculative decoding, continuous batching. Then System Design #1: "Design a low-latency LLM inference service" (see [../system_design/README.md](../system_design/README.md)).
 
-## Resource
+## Resourc
+
+
 
 - ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762) — the paper, worth re-reading start to finish
 - [Hugging Face Transformers docs](https://huggingface.co/docs/transformers)
