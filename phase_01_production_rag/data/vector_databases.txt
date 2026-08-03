@@ -1,0 +1,29 @@
+Vector Databases and Embeddings
+
+An embedding is a numerical vector that represents the meaning of a piece of
+text in a high-dimensional space. Text with similar meaning ends up with
+embeddings that are close together, while unrelated text ends up far apart.
+Embeddings are produced by embedding models, which are neural networks
+trained specifically to map text into this kind of vector space.
+
+A vector database is a specialized data store built to hold large numbers of
+these embeddings and to search them efficiently. Instead of matching exact
+keywords like a traditional database, a vector database finds the vectors
+that are mathematically closest to a query vector, which corresponds to
+finding the most semantically similar pieces of text.
+
+To make nearest-neighbor search fast at scale, vector databases use
+approximate nearest neighbor (ANN) algorithms such as HNSW (Hierarchical
+Navigable Small World graphs) or IVF (Inverted File Index) combined with
+product quantization. These trade a small amount of recall for large gains
+in query speed, which matters when searching over millions or billions of
+vectors.
+
+Popular vector database options include Pinecone (managed, cloud-native),
+Weaviate (open-source, supports hybrid search), FAISS (a library rather than
+a full database, good for prototyping), and pgvector (a Postgres extension,
+useful when you already run Postgres and want vector search without adding
+a new system).
+
+Choosing between them usually comes down to tradeoffs in recall, latency,
+operational overhead, and cost at your expected scale.
