@@ -1,7 +1,6 @@
 """LangGraph wiring: supervisor fans out to category specialist agents (parallel),
 then fans back in for final report synthesis.
 
-    START -> route_categories -> [scout:wall_revamp, scout:plumber, ...] -> supervisor_report -> END
 """
 
 from __future__ import annotations
