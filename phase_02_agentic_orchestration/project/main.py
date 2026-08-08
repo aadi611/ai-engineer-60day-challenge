@@ -6,13 +6,13 @@ Usage:
 """
 
 from __future__ import annotations
-
 import argparse
 import sys
 
 from dotenv import load_dotenv
 from rich.console import Console
 from rich.markdown import Markdown
+import time
 
 load_dotenv()
 
