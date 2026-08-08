@@ -2,8 +2,7 @@
 
 Builds on 02_chunking.py. No LLM generation yet -- just indexing +
 retrieval, so you can inspect which chunks a query actually pulls back
-before wiring in the final answer-generation step.
-
+before wiring in the final answer-generation step
 Uses a local sentence-transformers model for embeddings (no API key,
 no cost) instead of the OpenAI embeddings API.
 """
@@ -17,10 +16,8 @@ chunking = import_module("02_chunking")
 
 EMBED_MODEL = "all-MiniLM-L6-v2"
 
-
 class VectorStore:
     """Minimal in-memory vector store: brute-force cosine similarity search."""
-
     def __init__(self) -> None:
         self.model = SentenceTransformer(EMBED_MODEL)
         self.chunks: list[dict] = []
