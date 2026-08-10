@@ -5,7 +5,7 @@
 - **Day 7** — Vector DB internals (HNSW, IVF, product quantization). Compare Pinecone vs Weaviate vs pgvector vs FAISS on recall/latency/cost tradeoffs.
 - **Day 8** — Chunking strategies: fixed, recursive, semantic, hierarchical.
 - **Day 9** — Embeddings + brute-force vector store (`03_embeddings_retrieval.py`); hybrid search with BM25 + vector via reciprocal rank fusion (`04_hybrid_search.py`).
-- **Day 10** — Re-ranking with cross-encoders / Cohere rerank.
+- **Day 10** — Re-ranking with cross-encoders / Cohere rerank (`05_reranking.py`).
 - **Day 11** — Query transformation: HyDE, multi-query, query decomposition.
 - **Day 12** — Context compression & long-context strategies.
 - **Day 13** — RAG evaluation: RAGAS, faithfulness/groundedness, LLM-as-judge.
