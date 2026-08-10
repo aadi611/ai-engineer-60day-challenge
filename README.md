@@ -117,8 +117,16 @@ ai-engineer-60day-challenge/
 ├── shared_utils/
 ├── datasets/
 ├── daily_logs/
+├── quant_trading/           # parallel, self-paced track: quant trading from scratch
 └── progress_tracker.md
 ```
+
+## 📈 Parallel Track: Quantitative Trading
+
+A separate, self-paced curriculum (not on the 60-day clock) covering quant
+trading from the ground up — math, statistics, finance/economics, the
+programming/data stack, market instruments, strategies, backtesting/risk, and
+market microstructure. See [quant_trading/README.md](quant_trading/README.md).
 
 ## 📊 Progress Tracking
 
