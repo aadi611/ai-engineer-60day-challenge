@@ -12,14 +12,12 @@ replaced with "here's what's actually happening in the forward pass."
 - **Day 5** — Alignment: RLHF, DPO, RLAIF, and practical guardrail techniques.
 - **Day 6** — 🎯 Inference optimization: KV cache, quantization (GPTQ/AWQ), speculative decoding, continuous batching. Then System Design #1: "Design a low-latency LLM inference service" (see [../system_design/README.md](../system_design/README.md)).
 
-## Resources
-
-
+## Resource
 
 - ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762) — the paper, worth re-reading start to finish
 - [Hugging Face Transformers docs](https://huggingface.co/docs/transformers)
 - [Hugging Face PEFT docs](https://huggingface.co/docs/peft) (LoRA/QLoRA)
 
-## Deliverable
+## Deliverables
 
 A from-scratch attention implementation + notes doc you could talk through on a whiteboard, no slides.
