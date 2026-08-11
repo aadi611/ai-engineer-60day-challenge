@@ -38,6 +38,8 @@ class Reranker:
         ]
         reranked.sort(key=lambda c: c["rerank_score"], reverse=True)
         return reranked[:top_k]
+        
+    def rerank2(self, query :str, candidates:
 
 
 if __name__ == "__main__":
