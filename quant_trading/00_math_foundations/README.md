@@ -10,7 +10,7 @@ that they exists.
 
 ---
 
-## 0.1 Calculus (1.5-2 weeks)
+## 0.1 Calculus (1.5-2.5 weeks)
 
 What you need: derivatives, partial derivatives, chain rule, Taylor series,
 integrals (conceptually — you'll rarely hand-integrate in practice), and
