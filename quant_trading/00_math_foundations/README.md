@@ -6,7 +6,7 @@ to implement the models yourself instead of treating them as black boxes.
 
 **Skip nothing here even if it looks "too basic"** — the goal is fluency, not
 recognition. You should be able to derive things on paper, not just remember
-that they exist.
+that they exists.
 
 ---
 
