@@ -14,13 +14,16 @@ cross-encoder and keep the top few. Uses a local cross-encoder model
 """
 
 from importlib import import_module
+from time import datetime
+import logger
 
 from sentence_transformers import CrossEncoder
 
 hybrid_search = import_module("04_hybrid_search")
 
 RERANK_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
-
+add.logger
+print(logs)
 
 class Reranker:
     """Re-scores (query, chunk) pairs with a cross-encoder."""
