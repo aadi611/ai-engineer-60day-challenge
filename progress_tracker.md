@@ -8,7 +8,7 @@ Each day: **A** = DSA (~45 min) · **B** = Core build topic (~2-2.5 hrs) · **C*
 
 ---
 
-## 🎯 Overall Progress
+## Overall Progress
 
 - [ ] **Phase 0:** LLM & Transformer Foundations (Days 1-6)
 - [ ] **Phase 1:** Advanced Production RAG (Days 7-15)
