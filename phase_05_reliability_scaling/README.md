@@ -1,6 +1,6 @@
 # Phase 5: Reliability, Scaling & Observability (Days 41-48)
 
-## Days
+## Day
 
 - **Day 41** — Rate limiting & throttling patterns.
 - **Day 42** — Retry strategies, circuit breakers, timeouts.
