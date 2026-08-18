@@ -9,7 +9,7 @@
 - **Day 45** — Caching strategies (semantic caching, Redis).
 - **Day 46** — Async processing & queues (Celery, Azure Service Bus).
 - **Day 47** — Distributed tracing, OpenTelemetry, Prometheus dashboards.
-- **Day 48** — 🎯 Build & ship: reliability layer on capstone + System Design #5: "Design an observability/reliability layer for an LLM platform at scale."
+- **Day 48** — 🎯 Build & ship: reliability layer on capstone + System Design #5: "Design an observability/reliability layer for an LLM platform at scale.
 
 ## Resources
 
