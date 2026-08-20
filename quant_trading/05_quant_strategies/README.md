@@ -7,7 +7,7 @@ understand the *categories of edge* and how to reason about new ones.
 
 ---
 
-## 5.1 Factor investing (1.5 weeks)
+## 5.1 Factor investing (1.5 weeks) - taking more time busy with another project
 
 - [QuantStart — factor investing articles](https://www.quantstart.com/articles/) and search "Fama French"
 - Read the original idea: Fama-French three-factor model (market, size, value), later extended (momentum, quality, low-vol)
