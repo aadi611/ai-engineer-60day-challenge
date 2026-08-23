@@ -3,7 +3,7 @@
 Interview-grade depth on the internals — this is where "I use LangChain" gets
 replaced with "here's what's actually happening in the forward pass."
 
-## Day wise distribution
+## Day wise distribution - on track
 
 - **Day 1** — Attention & multi-head attention, positional encoding. Implement scaled dot-product attention from scratch in NumPy/PyTorch (no library shortcuts) — this is the single most common "explain from first principles" ask.
 - **Day 2** — Tokenization (BPE, SentencePiece), embeddings, context windows. Train a small BPE tokenizer on a toy corpus.
