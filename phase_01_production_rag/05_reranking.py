@@ -5,7 +5,7 @@ document independently of the query -- a bi-encoder embeds query and
 chunk separately and compares vectors, so it can't model fine-grained
 query-chunk interactions. A cross-encoder feeds the (query, chunk) pair
 into one transformer and outputs a relevance score directly, which is
-far more accurate but too slow to run over an entire corpus.
+far more accurate but too slow to run over an entire data.
 
 The standard pattern: retrieve a wide candidate set cheaply (hybrid
 search, top_k=20), then re-rank just those candidates with the
