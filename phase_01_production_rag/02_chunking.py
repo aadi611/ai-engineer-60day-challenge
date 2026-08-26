@@ -6,6 +6,7 @@ resulting chunks before adding retrieval on top.
 """
 
 from pathlib import Path
+import time
 
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
