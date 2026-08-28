@@ -4,5 +4,5 @@
 **Track B (Core build):** Attention mechanism (Phase 0 Day 1 — attention & multi-head attention, positional encoding).
 **Track C (Systems):** —
 
-**Blockers:** —
-**Tomorrow:** —
+**Blockers:** 
+**Tomorrow:** 
