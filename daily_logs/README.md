@@ -3,7 +3,7 @@
 One file per day (`day_01.md`, `day_02.md`, ...), 5 minutes at the end of the
 session. Keep it short — this is fuel for the "Key Learnings" section of
 `progress_tracker.md` and for interview stories later, not a journal.
-
+ 123
 Template:
 
 ```markdown
