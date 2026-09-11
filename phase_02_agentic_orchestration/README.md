@@ -12,7 +12,7 @@
 - **Day 23** — Guardrails, agent safety, prompt injection defense.
 - **Day 24** — Build & ship: multi-agent project.
 - **Day 25** — 🎯 Review + System Design #3: "Design a multi-agent customer support platform."
-
+--Will start on Sept 15
 ## Resource
 
 - [LangGraph docs](https://langchain-ai.github.io/langgraph/)
