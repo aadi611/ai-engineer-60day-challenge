@@ -13,7 +13,7 @@
 - **Day 24** — Build & ship: multi-agent project.
 - **Day 25** — 🎯 Review + System Design #3: "Design a multi-agent customer support platform."
 
-## Resources
+## Resource
 
 - [LangGraph docs](https://langchain-ai.github.io/langgraph/)
 - [Anthropic: Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents)
