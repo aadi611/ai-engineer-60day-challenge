@@ -4,7 +4,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-
 # ---------- 1. Pretraining objectives ----------
 def causal_lm_loss(logits, targets, pad_id=-100):
     """GPT/Llama/Claude-style: predict token t+1 from tokens <=t. Loss on every position."""
