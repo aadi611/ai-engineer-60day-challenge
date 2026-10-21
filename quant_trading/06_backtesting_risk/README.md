@@ -54,7 +54,7 @@ compare them properly (not just "which had the higher total return").
 **Exercise:** implement Markowitz optimization on a small basket of assets,
 plot the efficient frontier, and compare the "optimal" portfolio's
 out-of-sample performance (next year's data) against a simple equal-weight
-portfolio. This is a firsthand demonstration of estimation-error risk.
+portfolio. This is a firsthand demonstration of estimation-error risk
 
 ## 6.5 Risk management practices
 
