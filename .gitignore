@@ -69,3 +69,8 @@ datasets/*.docx
 *.pkl
 *.h5
 *.pth
+
+# v2: keep agent/MCP manifests tracked despite the *.json rule above
+!**/server.json
+!**/agent-card.json
+!**/manifest.json

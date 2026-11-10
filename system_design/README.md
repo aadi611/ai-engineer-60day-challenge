@@ -1,59 +1,41 @@
-# System Design Track
+# System Design Track (v2)
 
-One System Design Day per week (marked 🎯 in [../progress_tracker.md](../progress_tracker.md)).
-Each rep: 45-60 min timed design under interview conditions, then write it up
-here — the write-up is what you review the night before a real interview.
+One 🎯 rep per phase (see [../progress_tracker.md](../progress_tracker.md)). 45-60 min timed, then a write-up here.
+The v1 version of this README is in [../archive/v1/system_design_README.md](../archive/v1/system_design_README.md).
 
-## Framework to apply every time
+## Framework (v2 adds step 6)
 
-1. **Clarify requirements** — functional + non-functional (latency, scale, cost, consistency)
-2. **Back-of-envelope estimation** — QPS, data volume, storage
-3. **High-level architecture** — draw it, name every component
-4. **Deep dive on 2-3 components** — the interviewer's real interest
-5. **Bottlenecks & tradeoffs** — where does this break, what would you change at 10x scale
-6. **Monitoring & failure modes** — what pages you at 3am
+1. **Clarify requirements:** functional and non-functional (latency, scale, cost, consistency)
+2. **Back-of-envelope:** QPS, tokens/sec, storage, $/day
+3. **High-level architecture:** draw it, name every component
+4. **Deep dive on 2-3 components:** where the interviewer actually wants to go
+5. **Bottlenecks & tradeoffs:** what breaks at 10x?
+6. **🔐 Threat model:** trust boundaries, untrusted inputs (users, documents, tools, other agents), the lethal-trifecta
+   check, blast radius of a compromised agent/tool, authZ at every hop
+7. **Monitoring & failure modes:** what pages you at 3 a.m., including security alerts
 
-## The 8 reps
+## The 9 reps
 
-| Day | Prompt |
-|---|---|
-| 6 | Design a low-latency LLM inference service |
-| 15 | Design a RAG system for 10M documents, <500ms p99 |
-| 25 | Design a multi-agent customer support platform |
-| 29 | Design a ChatGPT-like product (GenAI system design framework practice) |
-| 29 | Design semantic search at scale |
-| 30 | Full mock #1 (timed, pick a fresh prompt) |
-| 30 | Full mock #2 (timed, pick a fresh prompt) |
-| 40 | Design a multi-tenant AI platform deployed on Azure |
-| 48 | Design an observability/reliability layer for an LLM platform at scale |
-| 52 | Design a cost-aware model-routing layer (small vs large model selection) |
+| Day | Prompt | File |
+|---|---|---|
+| 8 | Low-latency LLM inference service | `01_llm_inference_service.md` |
+| 16 | Secure multi-tenant LLM API gateway | `02_secure_llm_gateway.md` |
+| 25 | RAG for 10M docs, <500 ms p99, per-user permissions | `03_permission_aware_rag.md` |
+| 37 | Multi-agent customer-support platform | `04_multiagent_support.md` |
+| 50 | Enterprise AI firewall / guardrail service | `05_ai_firewall.md` |
+| 60 | Agent marketplace: 10k agents / 1M users (discovery, trust, payments) | `06_agent_marketplace.md` |
+| 68 | Observability + cost-aware routing layer | `07_observability_routing.md` |
+| 71 | Mock #1: GenAI-security prompt (timed) | `mock_01.md` |
+| 71 | Mock #2: marketplace prompt (timed) | `mock_02.md` |
 
-(That's more than 8 — use the extras as a bank if you want additional reps or a real mock runs short.)
+## Prompt bank (extra reps)
 
-## Folder structure
+- Design ChatGPT-like product / semantic search at scale (from v1)
+- Design prompt-injection defense for an email assistant with send permissions
+- Design the vetting pipeline for a public MCP registry
+- Design sandboxed code execution for 100k agent sessions/day
+- Design delegated payments for a shopping agent (consent, limits, disputes)
+- Design a SOC alert-triage agent with human escalation
+- Design a model-serving platform with signed-model supply chain
 
-```
-system_design/
-├── 01_llm_inference_service.md
-├── 02_rag_10m_docs.md
-├── 03_multiagent_support.md
-├── 04_chatgpt_like_product.md
-├── 05_semantic_search_scale.md
-├── mock_01.md
-├── mock_02.md
-├── 06_azure_multitenant.md
-├── 07_observability_layer.md
-└── 08_cost_aware_routing.md
-```
-
-Each write-up: problem statement, your architecture diagram (ASCII or link to
-an image), the tradeoffs you called out, and — critically — what you'd say
-differently if you did it again. That last part is what actually improves
-your interview performance rep over rep.
-
-## ML-specific vs GenAI-specific framing
-
-Classic ML system design (recommendation systems, fraud detection, ranking)
-and GenAI system design (RAG, agents, LLM serving) get asked differently —
-practice both framings explicitly on Day 28-29 rather than assuming one
-covers the other.
+Each write-up: problem, diagram (ASCII or image), tradeoffs, threat model, and **what you'd say differently next time**.

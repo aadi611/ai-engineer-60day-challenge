@@ -1,19 +1,19 @@
-# Daily Logs
+# Daily Logs (v2)
 
-One file per day (`day_01.md`, `day_02.md`, ...), 5 minutes at the end of the
-session. Keep it short — this is fuel for the "Key Learnings" section of
-`progress_tracker.md` and for interview stories later, not a journal.
- 123
+One file per day (`day_01.md`, `day_02.md`, ...), 5 minutes at the end of the session.
+v1 logs (Days 1-10, July-Sept 2026) are preserved in [../archive/v1/daily_logs/](../archive/v1/daily_logs/).
+
 Template:
 
 ```markdown
-# Day N — <topic>
+# Day N: <topic>
 
-**Track A (DSA):** problem(s) solved, pattern, time taken
+**Track A (DSA or 🔐 Lab):** what you solved, the pattern/trick, time taken
 **Track B (Core build):** what you built/learned, one surprising thing
-**Track C (Systems):** notes, or link to system_design/ write-up on design days
+**Track C (Systems / security lens):** notes, or a link to the system_design/ write-up
 
-**Blockers:** anything that ate time or you didn't finish
+**🔐 How would I attack what I built today?** one or two concrete attacks + the mitigation
+**Blockers:** anything that ate time or didn't get finished
 **Tomorrow:** one thing to carry forward
-**Extra's:** Platform, Terraform , Azure , Certifications
+**Extras:** Platform, Terraform, Azure, certifications
 ```

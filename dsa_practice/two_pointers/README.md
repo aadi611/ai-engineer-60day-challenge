@@ -6,4 +6,4 @@ Two indices moving through a sequence (converging, same-direction, or fast/slow)
 
 | Day | Problem | Notes |
 |---|---|---|
-| Day 1 | Array problem (see [daily_logs/day_01.md](../../daily_logs/day_01.md)) | — |
+| v1 Day 1 | Array problem (see [archive/v1/daily_logs/day_01.md](../../archive/v1/daily_logs/day_01.md)) | — |
