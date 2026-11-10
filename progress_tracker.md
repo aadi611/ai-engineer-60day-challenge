@@ -1,8 +1,18 @@
 # 📈 AI Engineer Challenge v2: Progress Tracker
 
 **Start Date:** November 11, 2026
-**Target Completion Date:** January 29, 2027
+**Target Completion Date:** ~late May 2027 (re-dated for GATE 2027)
 **Current Day:** 0 of 80 (v2 not yet started; v1 tracker is in [archive/v1/progress_tracker.md](archive/v1/progress_tracker.md))
+
+### 🎓 Schedule with GATE 2027
+
+| Window | Mode | This plan |
+|---|---|---|
+| Nov 11 → Jan 12 | GATE learn + revise ([gate_prep/](gate_prep/README.md)) | **Phase 0 (Days 1-8) at 30 min/day**: one plan day ≈ 1 week. Alternate DSA / lab on the other days |
+| Jan 13 → exam | GATE mocks | **Paused.** Daily commit of GATE notes only |
+| After exam (~Feb 22) | Full pace | **Day 9 onward**, 6 plan days/week (Saturday = 🎯 days), ~2.5-3 hrs/day |
+
+Go by **Day number, not date**.
 
 Each day: **A** = Skills rep (odd day = DSA · even day = 🔐 security lab) · **B** = Core build (~2-2.5 hrs) · **C** = Systems & security lens (~30-45 min; full design rep on 🎯 days)
 
@@ -12,6 +22,7 @@ Rule: if you miss a day, **don't** skip forward. Slide the dates and use a 🛟 
 
 ## Overall Progress
 
+- [ ] 🎓 **GATE 2027 RA:** exam done (tracked in [gate_prep/](gate_prep/README.md))
 - [ ] **Phase 0:** Foundations: Python, LLM APIs & Internals (Days 1-8)
 - [ ] **Phase 1:** Security Foundations for AI Engineers (Days 9-16)
 - [ ] **Phase 2:** Secure Production RAG (Days 17-25)
@@ -218,4 +229,4 @@ v1 history (Days 1-10, July-Sept 2026) lives in [archive/v1/](archive/v1/).
 
 ---
 
-**Last Updated:** November 10, 2026
+**Last Updated:** November 10, 2026 (re-dated for GATE 2027)

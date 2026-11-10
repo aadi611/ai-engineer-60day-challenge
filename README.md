@@ -8,8 +8,13 @@ again and is re-aimed at a sharper target profile:
 > agents are packaged, discovered, trusted and paid for in agent marketplaces.**
 
 **Start Date:** 2026-11-11
-**Target Completion:** 2027-01-29 (Day 80)
-**Commitment:** ~3-4 hrs/day · 2 built-in 🛟 buffer days (use them, don't skip them)
+**Target Completion:** ~late May 2027 (Day 80), re-dated for GATE 2027
+**Commitment:** GATE mode until the exam (30 min/day), then ~2.5-3 hrs/day, 6 days/week · 2 built-in 🛟 buffer days
+
+> ## 🎓 GATE mode (Nov 11, 2026 → GATE RA exam, Feb 2027)
+> GATE 2027 (Robotics & Automation) comes first. Until the exam, this plan runs at **maintenance pace**:
+> 30 min/day on Phase 0 (Days 1-8), DSA or a lab, plus a daily commit. Full GATE plan: **[gate_prep/](gate_prep/README.md)**.
+> After the exam, the plan resumes at full pace from **Day 9** (~Feb 22, 2027).
 
 ---
 
@@ -109,6 +114,7 @@ ai-engineer-60day-challenge/
 ├── security_labs/           # Track A, even days
 ├── system_design/           # weekly 🎯 design reps
 ├── daily_logs/              # v2 logs (day_01.md, ...)
+├── gate_prep/               # GATE 2027 RA plan, syllabus tracker, mistake log, mocks
 ├── quant_trading/           # parallel self-paced track (unchanged)
 ├── archive/v1/              # ← the complete v1 plan, logs and code, untouched
 └── progress_tracker.md
@@ -131,4 +137,4 @@ Unchanged. A self-paced track (not on the clock). See [quant_trading/README.md](
 
 ---
 
-**Current Phase:** Phase 0 (v2 Day 1 = 2026-11-11)
+**Current Phase:** 🎓 GATE mode + Phase 0 at maintenance pace (v2 Day 1 = 2026-11-11)
